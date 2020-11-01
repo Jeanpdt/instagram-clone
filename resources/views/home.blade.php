@@ -7,7 +7,7 @@
             <img src="https://instagram.ffln4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/97566921_2973768799380412_5562195854791540736_n.jpg?_nc_ht=instagram.ffln4-1.fna.fbcdn.net&_nc_ohc=_FrOe_eq_hQAX-X3vTs&oh=ca6c038ba35b1ee4ae7f28248bae511e&oe=5FC55E67" alt="" class="rounded-circle">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>Aplicação teste</h1></div>
+            <div><h1>{{ $user->username  }}</h1></div>
             <div class="d-flex">
                 <div class="pr-3"><strong>50</strong> postagens</div>
                 <div class="pr-3"><strong>60k</strong> seguidores</div>
